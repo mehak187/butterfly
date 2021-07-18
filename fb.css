@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1.5vw; 
+	background-color: #EBEDF0;
+}
+		/*--=========================================
+			              Head Section 
+			having two classes h-text and h-form
+		============================================*/
+.head{
+	background-color: #3E5C99;
+	color: white;
+	height: 80px;
+
+}
+	/*====================================
+	1st class h-text for the text facebook
+	=====================================*/
+.h-text{
+	position: absolute;
+	left: 11%;
+	top: 20px;
+}
+	/*===============================================
+	 2nd class h-form for the login email or password
+	=================================================*/
+.h-form{
+	position: absolute;
+	right: 12%;
+	top: -7px;   /*there is another property below -table padding top 5px which affects it also so we define top in -*/
+	font-size: 14px;
+}
+/*==================Login btn===================*/
+.btn{
+	width: 50px;
+	height: 25px;
+	margin-left: 20px;
+	color: white;
+	background-color: #4267B2;
+	cursor: pointer;
+	border: none;
+}
+/*=====================================
+            Content Section
+  2having two div classes col1 and col2
+ =====================================*/
+ .columns{
+ 	width: 100%;
+ }
+.col1{
+	width: 36%;
+	float: left;
+		margin: 3% 0 0 11%;
+		color: #24247f;
+		font-weight: bold;
+}
+table{
+	margin-top: 20px; 
+	cursor: pointer;
+}
+
+.tbl-a{         /*Calling table tr and td tag and using border property on that- other method table, tr, td{ property}*/
+	border: 1.4px solid black;
+	font-size: 16px;
+
+}
+/*=====================================
+               Col2
+ =====================================*/
+.col2{
+	width: 42%;
+	float: left;
+	margin: 1.5% 0 0 9.5%;
+}
+.f-one{
+	height: 36px;
+	width: 34%;
+	margin-right: 6px;
+	margin-top: 10px;
+		border: 0.1px solid #BDC7D8;
+		border-radius: 5px;
+}
+.f-two{
+	height: 36px;
+	width: 70%;
+	margin-top: 10px;
+		border: 0.1px solid #BDC7D8;
+		border-radius: 5px;
+}
+
+.f-three{
+	padding: 4.5px;
+	font-size: 18px;
+	    border: 0.1px solid #BDC7D8;
+		border-radius: 5px;
+}
+span{
+	display: block;
+	padding-left: 210px;
+}
+.a-one{
+	text-decoration: none;
+	color: #2280c3;
+	padding-left: 22px;
+	font-size: 14px;
+}
+/*=============================
+		Final Text
+==============================*/
+.finaltext{
+	font-size: 14px;
+	margin-top: 10px;
+}
+a{
+	text-decoration: none;
+	color: #2280c3;
+	font-size: 14px;
+}
+/*==================================
+		  Sign Up Button
+===================================*/
+.Signup-btn{
+	color: white;
+	background-color: #66843f;
+	border: none;
+	width: 190px;
+	height: 40px;
+	border-radius: 7px;
+		margin-top: 30px;
+		font-size: 20px;
+		cursor: pointer;
+}
+
+/*===================================
+				Media Queries
+===================================*/
+@media only screen and (max-width: 650px) {
+  .main, .columns, .column1 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+
+
+
+

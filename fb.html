@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--CSS File Link-->
+	<link rel="stylesheet" type="text/css" href="fb.css">
+</head>
+<body>
+	<header>
+		<!--=========================================
+			              Head Section 
+			having two classes h-text and h-form
+		=========================================-->
+		<div class="head">
+			<!--1st class h-text for the text facebook--> 
+			<div class="h-text">
+				<h1>facebook</h1>
+			</div>
+			<!--2nd class h-form for the login email or password-->
+			<div class="h-form">
+				<form>
+					<table>
+						<tr>
+							<td>Email or Phone</td>
+							<td style="padding-left: 16px;">Password</td>
+						</tr>
+						<tr>
+							<td><input type="text" name="Email or Phone" placeholder="Email or Phone" 
+								style="width: 150px; height: 20px;"></td>
+							<td><input type="Password" name="Password" placeholder="Password" 
+								style="width: 150px; height: 20px; margin-left: 15px;"></td>
+							<td><input class="btn" type="submit" value="Log In"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td  style="padding-left: 16px;">Forgotton account</td>	
+						</tr>
+					</table>
+				</form>
+			</div><!--end of h-form-->
+		</div><!--end of head-->
+	</header>
+	<!--=========================================
+			      Content  Section 
+	       having two div classes col1 and col2
+		=========================================-->
+	<content class="columns">
+		<div class="col1">
+			<p style="font-size: 22px;">Facebook helps you connect and share with the people in your life.</p>
+			<table class="tbl-a"><!--Giving same class of tbl2 to table, tr and td tag-->
+					<tr class="tbl-a">
+						<td class="tbl-a">FirstName</td>
+						<td class="tbl-a">LastName</td>
+						<td class="tbl-a">Email</td>
+						<td class="tbl-a">Gender</td>
+						<td class="tbl-a">Action</td>
+					</tr>
+				</table>
+		</div><!--The end col1-->
+		<div class="col2">
+				<h1>Create an account</h1>
+				<p style="font-size: 21px; padding-top: 5px;">It's free and always will be.</p>
+				<form>
+				<input class="f-one" type="text" name="Name" placeholder="  Name">
+				<input class="f-one" type="text" name="SurName" placeholder="  SurName"><br>
+				<input class="f-two" type="text" name="Mobile number or Email address" placeholder="  Mobile number or Email address">
+				<br>
+				<input class="f-two" type="Password" name="password" placeholder="  New password"><br>
+				<input class="f-two" type="text" name="Data" placeholder="  Data"><br>
+
+				<div style="padding: 20px 0 10px 0;">Birthday</div>
+
+				<div><input class="f-three" type="date" name="birthday"><a href="" class="a-one">Why do I need to provide my<span>date of birth</span></a></div>
+
+				<input type="radio" name="Gender">Female
+				<input type="radio" name="Gender">Male
+			</form>
+			<!--=======Final Text==========-->
+			<div class="finaltext">By clicking Sign Up, you agree to our <a href="">Terms, </a><a href=""> Data Policy</a> and<br> <a href="">Cookie Policy.</a>You may receive SMS notification and<br> can otp out anytime.
+			</div>
+			<!--==================================
+				        Sign Up Button
+		    ===================================-->
+		    <input type="submit" name="Sign Up" value="Sign Up" class="Signup-btn">
+		</div>
+	</content>
+
+</body>
+</html>
